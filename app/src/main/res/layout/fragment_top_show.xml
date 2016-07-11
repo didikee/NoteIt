@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.inno.noteit.fragment.TopShowFragment">
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/dp48">
+       <ImageView
+           android:id="@+id/miao"
+           android:src="@mipmap/ic_launcher"
+           android:layout_width="@dimen/big_padding"
+           android:layout_height="@dimen/big_padding"/>
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:clickable="true"
+           android:background="@android:color/holo_blue_bright"
+           />
+   </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48">
+        <ImageView
+            android:id="@+id/mouse"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="@dimen/big_padding"
+            android:layout_height="@dimen/big_padding"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="@android:color/holo_green_light"
+            />
+    </LinearLayout>
+
+</LinearLayout>
